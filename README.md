@@ -10,12 +10,27 @@ MIT license found in the LICENSE file.
 
 ## Language Specification
 Must Have:
-- Functions. `function calculate() {}`
-- Statically typed variables. `string name = "";`
-- Standard variable types: `string`, `number`, `boolean`
-- Variables can be defined as arrays. `number[] digits = [1, 2, 3]`
-- Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `string mut name = "name";`
+- Comments `//` or `/*  */`
+- Dynamially typed variables. `var name = "";`
+- Data types: `string`, `number`, `boolean`, `null`
+- Variables can be defined as arrays. `var digits = [1, 2, 3]`
+- Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `var mut name = "name";`
+- Precedence and grouping `var average = (min + max) / 2;`
 - A basic standard library containing `print()` and `clock()`.
+- Control Flow: `if` statements, `while` loop, `for` loop
+- Functions `function calculate() {}`
+- Closures
+```
+function addPair(a, b) {
+  return a + b;
+}
+
+funtion do(a) {
+  return a;
+}
+
+print(do(addPair)(1, 2)); // Prints "3".
+```
 - Function recursion.
 ```
 function fibonacci(number n) {
