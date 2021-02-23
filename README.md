@@ -13,6 +13,7 @@ Must Have:
 - Functions. `function calculate() {}`
 - Statically typed variables. `string name = "";`
 - Standard variable types: `string`, `number`, `boolean`
+- Variables can be defined as arrays. `number[] digits = [1, 2, 3]`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `string mut name = "name";`
 - A basic standard library containing `print()` and `clock()`.
 - Function recursion.
