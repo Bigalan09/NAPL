@@ -10,11 +10,12 @@ MIT license found in the LICENSE file.
 
 ## Language Specification
 Must Have:
-- Functions `function calculate() {}`
+- Functions. `function calculate() {}`
 - Statically typed variables. `string name = "";`
-- standard types: `string`, `number`, `array`
+- Standard variable types: `string`, `number`, `boolean`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `string mut name = "name";`
-- Function recursion
+- A basic standard library containing `print()` and `clock()`.
+- Function recursion.
 ```
 function fibonacci(number n) {
     if (n < 2) {
@@ -26,4 +27,4 @@ function fibonacci(number n) {
 
 print(fibonacci(5));
 ```
--  A basic standard library containing `print()` and `clock()`.
+
