@@ -1,10 +1,9 @@
-# The Hoora Programming Language
+# The NAPL Programming Language
 
-Hoora is an open source programming language that was built purely for fun and educational purposes.
+NAPL (Not Another Programming Language) is an open source programming language that was built purely for fun and educational purposes.
 
-Unless otherwise noted, the Hoora source files are distributed under the
+Unless otherwise noted, the NAPL source files are distributed under the
 MIT license found in the LICENSE file.
-
 
 ## Language Specification
 Must Have:
