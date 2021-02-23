@@ -5,4 +5,4 @@ Worra is an open source programming language that was built purely for fun and e
 Worra is arrow spelt backwards.
 
 Unless otherwise noted, the Worra source files are distributed under the
-BSD-style license found in the LICENSE file.
+MIT license found in the LICENSE file.
