@@ -16,7 +16,12 @@ Must Have:
 - Precedence and grouping `var average = (min + max) / 2;`
 - A basic standard library containing `print()` and `clock()`.
 - Control Flow: `if` statements, `while` loop, `for` loop
-- Functions `function calculate() {}`
+- Functions
+```
+function addPair(a, b) {
+  return a + b;
+}
+```
 - Closures
 ```
 function addPair(a, b) {
