@@ -9,7 +9,7 @@ MIT license found in the LICENSE file.
 ## Language Specification
 Must Have:
 - Comments `//` or `/*  */`
-- Statically typed variables. `var name = "";`
+- Dynamically typed variables. `var name = "";`
 - Data types: `string`, `number`, `boolean`, `null`
 - Variables can be defined as arrays. `var digits = [1, 2, 3]`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `var mut name = "name";`
