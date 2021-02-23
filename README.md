@@ -12,6 +12,7 @@ MIT license found in the LICENSE file.
 Must Have:
 - Functions `function calculate() {}`
 - Statically typed variables. `string name = "";`
+- standard types: `string`, `number`, `array`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `string mut name = "name";`
 - Function recursion
 ```
@@ -22,5 +23,7 @@ function fibonacci(number n) {
         return fibonacci(n - 2) + fibonacci(n - 1);
     }
 }
+
+print(fibonacci(5));
 ```
--  
+-  A basic standard library containing `print()` and `clock()`.
