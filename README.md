@@ -11,6 +11,7 @@ Must Have:
 - Comments `//` or `/*  */`
 - Dynamically typed variables. `var name = "";`
 - Data types: `string`, `number`, `boolean`, `null`
+- Custom types `struct` and `enum`
 - Variables can be defined as arrays. `var digits = [1, 2, 3]`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `var mut name = "name";`
 - Precedence and grouping `var average = (min + max) / 2;`
