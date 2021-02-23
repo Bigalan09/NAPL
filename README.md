@@ -1,10 +1,8 @@
-# The Worra Programming Language
+# The Hoora Programming Language
 
-Worra is an open source programming language that was built purely for fun and educational purposes.
+Hoora is an open source programming language that was built purely for fun and educational purposes.
 
-Worra is arrow spelt backwards.
-
-Unless otherwise noted, the Worra source files are distributed under the
+Unless otherwise noted, the Hoora source files are distributed under the
 MIT license found in the LICENSE file.
 
 
