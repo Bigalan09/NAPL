@@ -9,10 +9,10 @@ MIT license found in the LICENSE file.
 ## Language Specification
 Must Have:
 - Comments `//` or `/*  */`
-- Statically typed variables but can be defined and the context infered. `var name = "Hoora";` or `name: string = "Hoora";`
+- Statically typed variables but can be defined and the context infered. `var name = "Hoora";` or `var name: string = "Hoora";`
 - Data types: `string`, `number`, `boolean`, `null`
 - Custom types `struct` and `enum`
-- Variables can be defined as arrays. `var digits = [1, 2, 3]`
+- Variables can be defined as arrays. `var digits = [1, 2, 3]` or `var digits: number[] = [1, 2, 3];`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `var mut name = "name";`
 - Precedence and grouping `var average = (min + max) / 2;`
 - A basic standard library containing `print()` and `clock()`.
