@@ -9,7 +9,7 @@ MIT license found in the LICENSE file.
 ## Language Specification
 Must Have:
 - Comments `//` or `/*  */`
-- Dynamially typed variables. `var name = "";`
+- Statically typed variables. `var name = "";`
 - Data types: `string`, `number`, `boolean`, `null`
 - Variables can be defined as arrays. `var digits = [1, 2, 3]`
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `var mut name = "name";`
@@ -23,7 +23,7 @@ function addPair(a, b) {
   return a + b;
 }
 
-funtion do(a) {
+function do(a) {
   return a;
 }
 
@@ -31,7 +31,7 @@ print(do(addPair)(1, 2)); // Prints "3".
 ```
 - Function recursion.
 ```
-function fibonacci(number n) {
+function fibonacci(n) {
     if (n < 2) {
         return 1;
     } else {
