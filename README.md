@@ -15,7 +15,7 @@ Must Have:
 - Variables are by default immutable, add the keyword ` mut` to make a variable mutable. `var mut name = "name";`
 - Precedence and grouping `var average = (min + max) / 2;`
 - A basic standard library containing `print()` and `clock()`.
-- Control Flow: `if` statements, `while` loop, `for` loop
+- Control Flow: `if/else` statements, `while` loop, `for` loop
 - Functions
 ```
 function addPair(a, b) {
