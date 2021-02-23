@@ -8,7 +8,7 @@ MIT license found in the LICENSE file.
 ## Language Specification
 Must Have:
 - Comments `//` or `/*  */`
-- Statically typed variables but can be defined and the context infered. `var name = "Hoora";` or `var name: string = "Hoora";`
+- Statically typed variables but can be defined and the context infered. `var name = "This is NAPL";` or `var name: string = "This is NAPL";`
 - Data types: `string`, `number`, `boolean`, `null`
 - Custom types `struct` and `enum`
 - Variables can be defined as arrays. `var digits = [1, 2, 3]` or `var digits: number[] = [1, 2, 3];`
@@ -18,17 +18,17 @@ Must Have:
 - Control Flow: `if/else` statements, `while` loop, `for` loop
 - Functions
 ```
-function addPair(a: number, b: number): number {
+fn addPair(a: number, b: number): number {
   return a + b;
 }
 ```
 - Closures
 ```
-function addPair(a: number, b: number): number {
+fn addPair(a: number, b: number): number {
   return a + b;
 }
 
-function do(a: function): function {
+fn do(a: fn): fn {
   return a;
 }
 
@@ -36,7 +36,7 @@ print(do(addPair)(1, 2)); // Prints "3".
 ```
 - Function recursion.
 ```
-function fibonacci(n: number): number {
+fn fibonacci(n: number): number {
     if (n < 2) {
         return 1;
     } else {
