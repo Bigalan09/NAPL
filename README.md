@@ -1,8 +1,10 @@
 # The NAPL Programming Language
 
-NAPL (Not Another Programming Language) is an open source programming language that was built purely for fun and educational purposes.
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Bigalan09/NAPL/blob/main/NAPL.png" alt="NAPL logo" />
+</p>
 
-![NAPL Logo](https://github.com/Bigalan09/NAPL/blob/main/NAPL.png)
+NAPL (Not Another Programming Language) is an open source programming language that was built purely for fun and educational purposes.
 
 Unless otherwise noted, the NAPL source files are distributed under the
 MIT license found in the LICENSE file.
