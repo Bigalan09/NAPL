@@ -8,6 +8,7 @@ import (
 // Token type
 type Token int
 
+// consts
 const (
 	// EOF type
 	EOF = iota

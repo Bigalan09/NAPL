@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bigalan09/napl/scanner"
+	"github.com/bigalan09/napl/internal/scanner"
 )
 
 func main() {
