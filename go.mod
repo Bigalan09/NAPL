@@ -1,3 +1,3 @@
-module github.com/Bigalan09/NAPL
+module github.com/bigalan09/napl
 
 go 1.15
