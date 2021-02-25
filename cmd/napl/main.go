@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"github.com/bigalan09/napl/scanner"
 )
 
 func main() {
@@ -11,10 +13,10 @@ func main() {
 		panic(err)
 	}
 
-	scanner := Scanner(file)
+	scanner := scanner.Scanner(file)
 	for {
 		pos, tok, lit := scanner.Scan()
-		if tok == EOF {
+		if tok == scanner.EOF {
 			break
 		}
 
