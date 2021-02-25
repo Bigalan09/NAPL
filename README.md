@@ -9,6 +9,9 @@ NAPL (Not Another Programming Language) is an open source programming language t
 Unless otherwise noted, the NAPL source files are distributed under the
 MIT license found in the LICENSE file.
 
+## Why?
+I decided I wanted to educate myself to learn the constructs of a programming language and to challenge myself.
+
 ## Language Design and Specification
 
 For an overview of the language and it's specifications and design, head over to the [Wiki](https://github.com/Bigalan09/NAPL/wiki).
